@@ -1,0 +1,54 @@
+/*geral*/
+*{
+    margin:0 auto;
+    width:auto;
+   
+}
+main{
+    margin-top:100px;
+    text-align: center;
+    justify-content: center;
+}
+body{
+    background-color: rgb(0, 100, 200);
+    font-family:Arial, Helvetica, Verdana, sans-serif;
+}
+
+/*cabeçalho*/
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+header #logo-obrigatorio{
+    padding-top:10px;
+    width: 150px;
+}
+header #logo-obrigatorio img{
+    width: 7vw;
+    height: 6vw;
+}
+header #titulo-calc{
+    padding-right: 20vw;
+    width: 50vw;
+    margin-top:2vw;
+}
+header #titulo-calc h1{
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: 0,0,0;
+    
+}
+
+/*botões & inputs*/
+input{
+
+    display:grid;
+    height:45px;
+    font-size:14pt;
+}
+button{
+    height:50px;
+    font-size: 16pt;
+}
